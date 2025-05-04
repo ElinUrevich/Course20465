@@ -2,7 +2,6 @@
 #==================================================
 # File: run_tests.h
 # Author: Elin Urevich
-# ID: 314871518
 # Purpose: Convinient way to run tests for the magic_square program.
 #          needs to be run from within tests folder after building the 
 #          magic_square program. More details in the ReadMe.md .     

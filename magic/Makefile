@@ -1,7 +1,6 @@
 #==================================================
 # File: Makefile
 # Author: Elin Urevich
-# ID: 314871518
 # Purpose: Makefile for Magic Square Program.
 #==================================================
 CC = gcc

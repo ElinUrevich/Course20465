@@ -1,7 +1,6 @@
 /*==================================================
  * File: square_utils.h
  * Author: Elin Urevich
- * ID: 314871518
  * Purpose: Function declarations for validating and 
  *          analyzing magic square matrices of size NxN.
  *==================================================*/

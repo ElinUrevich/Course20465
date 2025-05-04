@@ -1,7 +1,6 @@
 /*==================================================
  * File: magic.c
  * Author: Elin Urevich
- * ID: 314871518
  * Purpose: Main function to check whether a matrix
  *          is a basic magic square.
  *==================================================*/

@@ -1,7 +1,6 @@
 /*==================================================
  * File: square_utils.c
  * Author: Elin Urevich
- * ID: 314871518
  * Purpose: Implementation of functions for checking
  *          and printing a magic square matrix.
  *==================================================*/
