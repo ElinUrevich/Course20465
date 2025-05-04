@@ -7,8 +7,8 @@
 CC = gcc
 CFLAGS = -Wall -ansi -pedantic
 
-magic_square: magic_square.c main.c
-	$(CC) $(CFLAGS) -o magic_square magic_square.c main.c
+magic_square: square_utils.c magic.c
+	$(CC) $(CFLAGS) -o magic square_utils.c magic.c
 
 clean:
-	rm -f *.o magic_square
+	rm -f *.o magic

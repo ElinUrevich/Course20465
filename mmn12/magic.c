@@ -1,5 +1,5 @@
 /*==================================================
- * File: main.c
+ * File: magic.c
  * Author: Elin Urevich
  * ID: 314871518
  * Purpose: Main function to check whether a matrix
@@ -7,7 +7,7 @@
  *==================================================*/
 
  #include <stdio.h>
- #include "magic_square.h"
+ #include "square_utils.h"
  
  /**
   * Entry point of the program.

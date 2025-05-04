@@ -1,5 +1,5 @@
 /*==================================================
- * File: magic_square.h
+ * File: square_utils.h
  * Author: Elin Urevich
  * ID: 314871518
  * Purpose: Function declarations for validating and 

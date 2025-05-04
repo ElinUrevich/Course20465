@@ -1,5 +1,5 @@
 /*==================================================
- * File: magic_square.c
+ * File: square_utils.c
  * Author: Elin Urevich
  * ID: 314871518
  * Purpose: Implementation of functions for checking
@@ -8,7 +8,7 @@
 
  #include <stdio.h>
  #include <stdbool.h>
- #include "magic_square.h"
+ #include "square_utils.h"
  
  /**
   * @brief Clears the input buffer to handle invalid or leftover input.

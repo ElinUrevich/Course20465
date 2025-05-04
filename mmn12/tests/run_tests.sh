@@ -24,7 +24,7 @@ while read -r line; do
         # Read the values specified for the test, print them and validate the program magic_square
         read -r input_line
 	    echo "$input_line"
-        echo "$input_line" | ../magic_square
+        echo "$input_line" | ../magic
         ((CASE++))
     fi
 
