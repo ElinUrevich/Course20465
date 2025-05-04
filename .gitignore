@@ -1,0 +1,7 @@
+# Ignore compiled binaries
+magic
+
+# Ignore temporary files
+*.o
+*~
+*.vscode
