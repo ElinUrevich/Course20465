@@ -134,7 +134,7 @@
   * @return true if the matrix is a magic square, false otherwise.
   */
  bool is_magic_square(int matrix[N][N]) {
-     int magic_sum = 0;
+     int magic_sum = 0, diag1 = 0, diag2 = 0, sum = 0;
      int expected_sum = N * (N * N + 1) / 2;
      int i, j;
  
@@ -147,25 +147,25 @@
  
      /* Check sums of all rows */
      for (i = 1; i < N; ++i) {
-         int row_sum = 0;
+        sum = 0;
          for (j = 0; j < N; ++j)
-             row_sum += matrix[i][j];
-         if (row_sum != magic_sum)
+             sum += matrix[i][j];
+         if (sum != magic_sum)
              return false;
      }
  
      /* Check sums of all columns */
      for (j = 0; j < N; ++j) {
-         int col_sum = 0;
+        sum = 0;
          for (i = 0; i < N; ++i)
-             col_sum += matrix[i][j];
-         if (col_sum != magic_sum)
+             sum += matrix[i][j];
+         if (sum != magic_sum)
              return false;
      }
  
      /* Check sums of both diagonals */
      
-     int diag1 = 0, diag2 = 0;
+     
      for (i = 0; i < N; ++i) {
          diag1 += matrix[i][i];
          diag2 += matrix[i][N - 1 - i];

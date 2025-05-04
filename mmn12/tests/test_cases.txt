@@ -16,8 +16,8 @@
 # Test 6: Valid magic square with extra input
 8 1 6 3 5 7 4 9 2 100 200
 
-# Test 7: Valid magic square with not enough input
+# Test 7: Square with not enough input
 8 1 6 3 5 7 4      9     
 
-# Test 8: Valid magic square with extra input
+# Test 8: Magic square with a char input instead of int
 8 1 6 3 5 7 a  9 2     
