@@ -1,0 +1,23 @@
+# Test 1: Valid magic square but with tabs and spaces
+8 1 6 3      5 7 4   9     2
+
+# Test 2: Duplicate values
+8 1 6 3 5 7 4 9 9
+
+# Test 3: Value out of range
+8 1 6 3 5 7 4 0 2
+
+# Test 4: Value out of range
+8 1 -99 3 5 7 4 1 2
+
+# Test 5: Not a magic square
+1 2 3 4 5 6 7 8 9
+
+# Test 6: Valid magic square with extra input
+8 1 6 3 5 7 4 9 2 100 200
+
+# Test 7: Valid magic square with not enough input
+8 1 6 3 5 7 4      9     
+
+# Test 8: Valid magic square with extra input
+8 1 6 3 5 7 a  9 2     
